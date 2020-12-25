@@ -3,7 +3,7 @@ A buffer between an unreliable USB key and your computer.
 
 Does this make sense?
 
-Material: Raspberry Pi 4
+Material: Raspberry Pi 4, ethernet cable, PC
 
 1. Burn Raspbian on an SD card using Raspberry Pi Imager
 2. Connect to it 
