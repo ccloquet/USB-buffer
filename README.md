@@ -21,14 +21,17 @@ Material: Raspberry Pi 4
     sudo apt-get upgrade
     sudo apt-get install usbmount apache2
 ````
+8. you might want to increase the security by configuring https, passwords, etc.
 
-8.
+9.
 ````
     sudo vim /lib/systemd/system/systemd-udevd.service
     PrivateMounts=no
 ````
 
-9. config the pi as an access point according to https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
+10. config the pi as an access point according to https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
+
+11.
 ````
     cd /var/www/html
     
@@ -39,7 +42,6 @@ Material: Raspberry Pi 4
     
 ````
 
-10. plug your USB key in your Rpi
-11. connect your computer to the Rpi through Wifi
-12. in your browser, go to http://raspberry.local and download the files you want
-13. you might want to increase the security by configuring https, passwords, etc.
+12. plug your USB key in your Rpi
+13. connect your computer to the Rpi through Wifi
+14. in your browser, go to http://raspberry.local and download the files you want
