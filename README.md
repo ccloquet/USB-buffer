@@ -27,6 +27,7 @@ Material: Raspberry Pi 4, ethernet cable, PC
 ````
     sudo vim /lib/systemd/system/systemd-udevd.service
     PrivateMounts=no
+    Verify that noexec is set as a mount option
 ````
 
 10. config the pi as an access point according to https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
