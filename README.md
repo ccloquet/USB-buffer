@@ -1,5 +1,5 @@
 # USB-buffer
-A buffer between an unreliable USB key and your computer.
+A buffer between an unreliable USB key and your computer (to download files from the key to the PC)
 
 Does this make sense?
 
@@ -46,3 +46,5 @@ Material: Raspberry Pi 4, ethernet cable, PC
 12. plug your USB key in your Rpi
 13. connect your computer to the Rpi through Wifi
 14. in your browser, go to http://raspberry.local and download the files you want
+
+You might also connect through SFTP (eg using FileZilla)
